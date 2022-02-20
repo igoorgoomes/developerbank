@@ -4,7 +4,7 @@ public class Colaborador {
     private String cargo;
     private String cpf;
     private double salario;
-    private int tipoCargo = 0; //tipoCargo 0 -> Colaborador comum | tipoCargo = 1 -> Gerente | tipoCargo = 2 -> Diretor
+    // private int tipoCargo = 0; //tipoCargo 0 -> Colaborador comum | tipoCargo = 1 -> Gerente | tipoCargo = 2 -> Diretor
 
     public double getParticipacao(){
        return this.salario *0.1;
